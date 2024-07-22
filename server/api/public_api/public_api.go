@@ -166,8 +166,8 @@ func GetSub(ctx *gin.Context) {
 		clientType = "V2Box"
 		goto next
 	}
-	if clientType == "" { //兜底客户端为v2rayNG
-		clientType = "v2rayNG"
+	if clientType == "" { //兜底客户端为v2rayN
+		clientType = "v2rayN"
 	}
 next:
 	//fmt.Println("clientType:", clientType)
